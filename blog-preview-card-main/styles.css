@@ -1,0 +1,52 @@
+body {
+  background-color: #d7c540;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 5px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.image-card img {
+  width: 100%;
+  overflow: none;
+  border-radius: 20px;
+}
+
+.card__tags {
+  margin-top: 20px;
+}
+
+.card__tags .learning {
+  background-color: #eded43;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.card__description {
+  color: rgb(75, 102, 91);
+}
+
+.card_footer img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle; /* Added for alignment */
+}
+.card_footer span {
+  font-weight: 600;
+  vertical-align: middle; /* Added for alignment */
+  padding-left: 5px;
+}

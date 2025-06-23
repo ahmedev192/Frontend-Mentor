@@ -1,0 +1,52 @@
+body {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe2da;
+}
+
+.container {
+  margin: 15px;
+  height: 1200px;
+  width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.image-container {
+  width: 100%;
+  overflow: none;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+h3,
+h2 {
+  color: rgb(113, 41, 41);
+  margin-bottom: -5px;
+}
+
+.time-container {
+  background-color: #f1ebe9;
+  padding: 5px;
+}
+
+ol li::marker {
+  color: rgb(113, 41, 41);
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}

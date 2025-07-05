@@ -1,0 +1,124 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf2f8;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+  gap: 30px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.testimonial {
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.daniel {
+  grid-area: daniel;
+  background: #6d2898 url("./images/bg-pattern-quotation.svg") 80% 0 no-repeat;
+  color: #fff;
+}
+
+.jonathan {
+  grid-area: jonathan;
+  background-color: #49556b;
+}
+
+.jeanette {
+  grid-area: jeanette;
+  background-color: #fff;
+  color: #6b7280;
+}
+
+.patrick {
+  grid-area: patrick;
+  background-color: #1a2e35;
+}
+
+.kira {
+  grid-area: kira;
+  background-color: #fff;
+  color: #6b7280;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border: 2px solid #a775f1;
+}
+
+.profile h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile h2 {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.headline {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+.daniel .headline,
+.daniel .description {
+  color: #e0e0e0;
+}
+
+.jonathan .headline,
+.jonathan .description {
+  color: #e0e0e0;
+}
+
+.patrick .headline,
+.patrick .description {
+  color: #e0e0e0;
+}
+
+.jeanette .headline,
+.jeanette .description,
+.kira .headline,
+.kira .description {
+  color: #6b7280;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-areas:
+      "daniel daniel"
+      "jonathan jonathan"
+      "jeanette kira"
+      "patrick patrick";
+  }
+}

@@ -1,5 +1,6 @@
 body {
   min-height: 100vh;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .container {
@@ -26,28 +27,29 @@ body {
   display: flex;
   align-items: center;
 }
-
+.card {
+}
 .calculator {
   grid-column: 3;
 }
 
 .centered {
-  border-top: 5px solid #0c88ee;
+  border-top: 5px solid hsl(212, 86%, 64%);
   border-radius: 10px;
   padding-left: 20px;
 
-  background-color: #e5efe3;
   width: 100%;
   padding-right: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .not-centered {
   border-radius: 10px;
 
-  border-top: 5px solid #ee4c0c;
-  background-color: #e5efe3;
+  border-top: 5px solid hsl(0, 78%, 62%);
   padding-left: 20px;
   padding-right: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .img-container {
